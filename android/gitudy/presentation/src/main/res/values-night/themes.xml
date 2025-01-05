@@ -1,7 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Gitudy" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:statusBarColor">@color/TRANSPARENT</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorBackground">@color/WHITE</item>
+    </style>
+
+    <style name="Theme.Gitudy" parent="Base.Theme.Gitudy" />
+
+    <!-- Dialog Theme -->
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.9</item>
     </style>
 </resources>
